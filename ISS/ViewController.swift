@@ -43,10 +43,10 @@ class ViewController: UIViewController {
                 let iss = try decoder.decode(Iss.self, from: data)
                 let latitude = Double(iss.issPosition.latitude) ?? 0
                 let longitude = Double(iss.issPosition.longitude) ?? 0
-
-                let initialLocation = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+                print(latitude, longitude)
+                let location = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
                 DispatchQueue.main.async {
-                    self.centerMapOnLocation(location: initialLocation)
+                    self.centerMapOnLocation(location: location)
                 }
                 
             } catch let error as NSError {

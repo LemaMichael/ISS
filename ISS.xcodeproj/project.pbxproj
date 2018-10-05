@@ -13,7 +13,7 @@
 		4C0BAED82167A60200C24161 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0BAED62167A60200C24161 /* LaunchScreen.storyboard */; };
 		4C0BAEE12167A86D00C24161 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0BAEE02167A86D00C24161 /* Extensions.swift */; };
 		4C0BAEE32167A8F900C24161 /* TestInect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0BAEE22167A8F900C24161 /* TestInect.swift */; };
-		4C43B6362167AA1E001567D2 /* ISSApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C43B6352167AA1E001567D2 /* ISSApi.swift */; };
+		4C43B6362167AA1E001567D2 /* ISS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C43B6352167AA1E001567D2 /* ISS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		4C0BAED92167A60200C24161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C0BAEE02167A86D00C24161 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		4C0BAEE22167A8F900C24161 /* TestInect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInect.swift; sourceTree = "<group>"; };
-		4C43B6352167AA1E001567D2 /* ISSApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSApi.swift; sourceTree = "<group>"; };
+		4C43B6352167AA1E001567D2 /* ISS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			children = (
 				4C0BAECD2167A60100C24161 /* AppDelegate.swift */,
 				4C0BAECF2167A60100C24161 /* ViewController.swift */,
-				4C43B6352167AA1E001567D2 /* ISSApi.swift */,
+				4C43B6352167AA1E001567D2 /* ISS.swift */,
 				4C0BAED42167A60200C24161 /* Assets.xcassets */,
 				4C0BAED62167A60200C24161 /* LaunchScreen.storyboard */,
 				4C0BAED92167A60200C24161 /* Info.plist */,
@@ -151,7 +151,7 @@
 				4C0BAED02167A60100C24161 /* ViewController.swift in Sources */,
 				4C0BAEE32167A8F900C24161 /* TestInect.swift in Sources */,
 				4C0BAEE12167A86D00C24161 /* Extensions.swift in Sources */,
-				4C43B6362167AA1E001567D2 /* ISSApi.swift in Sources */,
+				4C43B6362167AA1E001567D2 /* ISS.swift in Sources */,
 				4C0BAECE2167A60100C24161 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
